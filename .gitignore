@@ -1,0 +1,15 @@
+# Secrets - never commit
+.env
+
+# Airflow runtime files
+logs/
+config/airflow.cfg
+deploy_log.txt
+airflow.db
+*.pid
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
